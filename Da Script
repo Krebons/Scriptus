@@ -1,0 +1,3 @@
+#!/bin/bash
+tree Desktop/Bash-Hw;
+du -h Desktop/Bash-Hw/*.jpg | awk '{ print;total += $1 }; END { print "Total size of jpg files:",total }';
